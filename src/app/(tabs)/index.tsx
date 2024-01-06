@@ -1,7 +1,6 @@
-import { StyleSheet, FlatList } from "react-native";
+import { FlatList } from "react-native";
 
 import { tracks } from "../../../assets/data/tracks";
-import { View } from "../../components/Themed";
 import TrackListItem from "../../components/TrackListItem";
 
 export default function HomeScreen() {
